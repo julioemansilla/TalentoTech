@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Practica integral</h1>
+            <nav>
+                <ul>
+                    <li><a href="#form">Formulario</a></li>
+                    <li><a href="#tabla">Tabla</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            
+
+
+            <section id="form">
+                <h2>Formulario de Contacto</h2>
+                <form action="#" method="POST">
+
+                    <label for="nombre" >Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="" required >
+
+                    <label for="apellido" >Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="" required >
+
+                    <label for="consulta" >Su Consulta:</label>
+                    <textarea id="consulta" name="consulta" required ></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+
+            <section id="tabla">
+                <h2>Productos</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Accion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--Este dato tendria que ser dinamico  -->
+                        <tr>
+                            <td>1</td>
+                            <td>Celular LG</td>
+                            <td>$300.000</td>
+                            <td><button>Agregar</button></td>
+                        </tr>
+
+                        <tr>                       
+                            <td>2</td>
+                            <td>Celular Sony</td>
+                            <td>$350.000</td>
+                            <td><button>Agregar</button></td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Celular Motorola</td>
+                            <td>$250.000</td>
+                            <td><button>Agregar</button></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+
+        </main>
+
+        <br>
+        <br>
+        <br>
+
+        <footer id="contacto">
+            <p>Proyecto Talento 2024 - (C) integrador</p>
+        </footer>
+    
+    </body>
+</html>
