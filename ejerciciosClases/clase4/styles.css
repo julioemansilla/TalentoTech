@@ -1,0 +1,19 @@
+header{
+    background-color: blueviolet;
+    text-align: center;
+
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
