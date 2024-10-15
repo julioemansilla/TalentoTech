@@ -1,0 +1,16 @@
+#img_logo_ita{
+    width: 120px;
+    height: 120px;
+}
+
+#nav_bar{
+    list-style: none;
+    background-color: brown;
+}
+
+#scroll_envio{
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
