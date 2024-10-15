@@ -3,12 +3,27 @@
     height: 120px;
 }
 
-#nav_bar{
-    list-style: none;
-    background-color: brown;
+nav{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+    background-color: bisque;
+    border-bottom: 2px solid black;   
+}
+
+nav ul li{
+    display: inline-flex;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(189, 25, 25);
 }
 
 #scroll_envio{
+    margin: 0;
     padding: 10px 0px 10px 0px;
     background-color: black;
     color:white;
